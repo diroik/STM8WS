@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\DP485\DP485.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\MKADD\MKADD.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\SOM\SOM.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\TD485\TD485.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Test\Test.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Examples\UV_TIM\V3.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

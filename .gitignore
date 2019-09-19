@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/DP485/Debug
+/Examples/UV_TIM/Debug
+/MKADD/Debug
+/MKADD/Release
+/SOM/Debug
+/TD485/Debug

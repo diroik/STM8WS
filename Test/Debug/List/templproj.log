@@ -1,0 +1,842 @@
+Global:
+
+  Symbol   Redirected to
+  ------   -------------
+  _Printf  _PrintfFullNoMb
+  _Scanf   _ScanfFullNoMb
+Loading object D:\$PROJECTS\Microcontrollers\$STM8\Test\Debug\Obj\main.o.
+              definition:  _Z10Init_Portsv
+              definition:  _Z10Soft_Resetv
+              definition:  _Z16Init_Flash_Constv
+              definition:  _Z25MainLogicManagmentProcessv
+              definition:  _Z8Init_ADCv
+              definition:  _Z8Init_OSCv
+              definition:  _Z8Stop_ADCv
+              definition:  _Z9Start_ADCv
+              definition:  main
+
+Auto library: dlstm8smn.a -> C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\stm8\lib\dlstm8smn.a
+Auto library: dbgstm8smd.a -> C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\stm8\lib\dbgstm8smd.a
+Selecting member cstartup.o(dlstm8smn.a) to define __iar_program_start.
+              reference :  SHT$$INIT_ARRAY$$Limit
+              reference :  SHT$$PREINIT_ARRAY$$Base
+              reference :  __call_ctors
+              reference :  __iar_data_init2
+              reference :  __intvec
+              reference :  __low_level_init
+              reference :  exit
+              reference :  main
+              definition:  ??call_ctors
+              definition:  __iar_cstart_call_ctors
+              definition:  __iar_program_start
+              reference :  CSTACK$$Limit
+Selecting member cppinit.o(dlstm8smn.a) to define __call_ctors.
+              reference :  ?epilogue_l2
+              reference :  ?push_l2
+              reference :  ?w0
+              reference :  ?w1
+              reference :  ?w2
+              reference :  ?w3
+              reference :  ?w4
+              reference :  ?w5
+              reference :  __cstart_call_dtors
+              definition:  __call_ctors
+              definition:  __call_dtors
+              definition:  __cxa_atexit
+              definition:  __cxa_finalize
+              definition:  __dso_handle
+              reference :  .iar.dynexit$$Limit
+              reference :  .iar.dynexit$$Base
+Selecting member init.o(dlstm8smn.a) to define __iar_data_init2.
+              definition:  __iar_data_init2
+              reference :  Region$$Table$$Base
+              reference :  Region$$Table$$Limit
+Selecting member interrupt.o(dlstm8smn.a) to define __intvec.
+              reference :  __iar_program_start
+              reference :  __iar_unhandled_exception
+              definition:  __intvec
+              weak def  :  _interrupt_1
+              weak def  :  _interrupt_10
+              weak def  :  _interrupt_11
+              weak def  :  _interrupt_12
+              weak def  :  _interrupt_13
+              weak def  :  _interrupt_14
+              weak def  :  _interrupt_15
+              weak def  :  _interrupt_16
+              weak def  :  _interrupt_17
+              weak def  :  _interrupt_18
+              weak def  :  _interrupt_19
+              weak def  :  _interrupt_2
+              weak def  :  _interrupt_20
+              weak def  :  _interrupt_21
+              weak def  :  _interrupt_22
+              weak def  :  _interrupt_23
+              weak def  :  _interrupt_24
+              weak def  :  _interrupt_25
+              weak def  :  _interrupt_26
+              weak def  :  _interrupt_27
+              weak def  :  _interrupt_28
+              weak def  :  _interrupt_29
+              weak def  :  _interrupt_3
+              weak def  :  _interrupt_30
+              weak def  :  _interrupt_31
+              weak def  :  _interrupt_4
+              weak def  :  _interrupt_5
+              weak def  :  _interrupt_6
+              weak def  :  _interrupt_7
+              weak def  :  _interrupt_8
+              weak def  :  _interrupt_9
+Selecting member low_level_init.o(dlstm8smn.a) to define __low_level_init.
+              definition:  __low_level_init
+Selecting member exit.o(dlstm8smn.a) to define exit.
+              reference :  _exit
+              definition:  exit
+Selecting member vreg_util.o(dlstm8smn.a) to define ?epilogue_l2.
+              reference :  ?e0
+              reference :  ?e1
+              reference :  ?e2
+              reference :  ?e3
+              reference :  ?l0
+              reference :  ?l1
+              reference :  ?l2
+              reference :  ?l3
+              reference :  ?w0
+              reference :  ?w1
+              reference :  ?w2
+              reference :  ?w3
+              reference :  ?w4
+              reference :  ?w5
+              reference :  ?w6
+              reference :  ?w7
+              definition:  ?epilogue_l2
+              definition:  ?epilogue_l2_l3
+              definition:  ?epilogue_l2_w6
+              definition:  ?epilogue_w4
+              definition:  ?mov_e0_e1
+              definition:  ?mov_e0_e2
+              definition:  ?mov_e0_e3
+              definition:  ?mov_e1_e0
+              definition:  ?mov_e1_e2
+              definition:  ?mov_e1_e3
+              definition:  ?mov_e2_e0
+              definition:  ?mov_e2_e1
+              definition:  ?mov_e2_e3
+              definition:  ?mov_e3_e0
+              definition:  ?mov_e3_e1
+              definition:  ?mov_e3_e2
+              definition:  ?mov_l0_l1
+              definition:  ?mov_l0_l2
+              definition:  ?mov_l0_l3
+              definition:  ?mov_l1_l0
+              definition:  ?mov_l1_l2
+              definition:  ?mov_l1_l3
+              definition:  ?mov_l2_l0
+              definition:  ?mov_l2_l1
+              definition:  ?mov_l2_l3
+              definition:  ?mov_l3_l0
+              definition:  ?mov_l3_l1
+              definition:  ?mov_l3_l2
+              definition:  ?mov_w0_w1
+              definition:  ?mov_w0_w2
+              definition:  ?mov_w0_w3
+              definition:  ?mov_w0_w4
+              definition:  ?mov_w0_w5
+              definition:  ?mov_w0_w6
+              definition:  ?mov_w0_w7
+              definition:  ?mov_w1_w0
+              definition:  ?mov_w1_w2
+              definition:  ?mov_w1_w3
+              definition:  ?mov_w1_w4
+              definition:  ?mov_w1_w5
+              definition:  ?mov_w1_w6
+              definition:  ?mov_w1_w7
+              definition:  ?mov_w2_w0
+              definition:  ?mov_w2_w1
+              definition:  ?mov_w2_w3
+              definition:  ?mov_w2_w4
+              definition:  ?mov_w2_w5
+              definition:  ?mov_w2_w6
+              definition:  ?mov_w2_w7
+              definition:  ?mov_w3_w0
+              definition:  ?mov_w3_w1
+              definition:  ?mov_w3_w2
+              definition:  ?mov_w3_w4
+              definition:  ?mov_w3_w5
+              definition:  ?mov_w3_w6
+              definition:  ?mov_w3_w7
+              definition:  ?mov_w4_w0
+              definition:  ?mov_w4_w1
+              definition:  ?mov_w4_w2
+              definition:  ?mov_w4_w3
+              definition:  ?mov_w4_w5
+              definition:  ?mov_w4_w6
+              definition:  ?mov_w4_w7
+              definition:  ?mov_w5_w0
+              definition:  ?mov_w5_w1
+              definition:  ?mov_w5_w2
+              definition:  ?mov_w5_w3
+              definition:  ?mov_w5_w4
+              definition:  ?mov_w5_w6
+              definition:  ?mov_w5_w7
+              definition:  ?mov_w6_w0
+              definition:  ?mov_w6_w1
+              definition:  ?mov_w6_w2
+              definition:  ?mov_w6_w3
+              definition:  ?mov_w6_w4
+              definition:  ?mov_w6_w5
+              definition:  ?mov_w6_w7
+              definition:  ?mov_w7_w0
+              definition:  ?mov_w7_w1
+              definition:  ?mov_w7_w2
+              definition:  ?mov_w7_w3
+              definition:  ?mov_w7_w4
+              definition:  ?mov_w7_w5
+              definition:  ?mov_w7_w6
+              definition:  ?pop_e0
+              definition:  ?pop_e1
+              definition:  ?pop_e2
+              definition:  ?pop_e3
+              definition:  ?pop_l0
+              definition:  ?pop_l1
+              definition:  ?pop_l2
+              definition:  ?pop_l3
+              definition:  ?pop_w0
+              definition:  ?pop_w1
+              definition:  ?pop_w2
+              definition:  ?pop_w3
+              definition:  ?pop_w4
+              definition:  ?pop_w5
+              definition:  ?pop_w6
+              definition:  ?pop_w7
+              definition:  ?push_e0
+              definition:  ?push_e1
+              definition:  ?push_e2
+              definition:  ?push_e3
+              definition:  ?push_l0
+              definition:  ?push_l1
+              definition:  ?push_l2
+              definition:  ?push_l3
+              definition:  ?push_w0
+              definition:  ?push_w1
+              definition:  ?push_w2
+              definition:  ?push_w3
+              definition:  ?push_w4
+              definition:  ?push_w5
+              definition:  ?push_w6
+              definition:  ?push_w7
+Selecting member vregs.o(dlstm8smn.a) to define ?w0.
+              definition:  ?b0
+              definition:  ?b1
+              definition:  ?b10
+              definition:  ?b11
+              definition:  ?b12
+              definition:  ?b13
+              definition:  ?b14
+              definition:  ?b15
+              definition:  ?b2
+              definition:  ?b3
+              definition:  ?b4
+              definition:  ?b5
+              definition:  ?b6
+              definition:  ?b7
+              definition:  ?b8
+              definition:  ?b9
+              definition:  ?e0
+              definition:  ?e1
+              definition:  ?e2
+              definition:  ?e3
+              definition:  ?l0
+              definition:  ?l1
+              definition:  ?l2
+              definition:  ?l3
+              definition:  ?w0
+              definition:  ?w1
+              definition:  ?w2
+              definition:  ?w3
+              definition:  ?w4
+              definition:  ?w5
+              definition:  ?w6
+              definition:  ?w7
+Selecting member cexit.o(dlstm8smn.a) to define __cstart_call_dtors.
+              reference :  _Close_all
+              reference :  __call_dtors
+              reference :  __exit
+              definition:  __cstart_call_dtors
+              definition:  __cstart_closeall
+              definition:  _exit
+Selecting member unhandled_exception.o(dlstm8smn.a) to define __iar_unhandled_exception.
+              definition:  __iar_unhandled_exception
+Selecting member xcloseall.o(dlstm8smn.a) to define _Close_all.
+              reference :  ?b0
+              reference :  ?b1
+              reference :  __write
+              definition:  _Close_all
+Selecting member __dbg_xxexit.o(dbgstm8smd.a) to define __exit.
+              reference :  ?push_w4
+              reference :  ?w4
+              reference :  __DebugBreak
+              definition:  __exit
+Selecting member __dbg_xxwrite.o(dbgstm8smd.a) to define __write.
+              reference :  __dwrite
+              definition:  __write
+Selecting member __dbg_break.o(dbgstm8smd.a) to define __DebugBreak.
+              definition:  __DebugBreak
+Selecting member __dbg_xxdwrite.o(dbgstm8smd.a) to define __dwrite.
+              reference :  ?w0
+              reference :  __DebugBreak
+              definition:  __dwrite
+Selecting member init_small.o(dlstm8smn.a) to define __iar_zero_init2 (optional).
+              reference :  ?w0
+              reference :  ?w1
+              definition:  __iar_copy_init2
+              definition:  __iar_zero_init2
+Resolving duplicate symbol definitions
+*** Marking from roots ***
+Marking symbol __iar_program_start                Glb  (17 cstartup.o) [program entry]
+  Marking fragment #305 .near_func.text (7 cstartup.o(dlstm8smn.a)) init:always
+Marking symbol __iar_section$$root                     (3 cstartup.o) [__root]
+  Marking fragment #307 .near_func.text (7 cstartup.o(dlstm8smn.a))
+Marking symbol __iar_section$$root                     (3 interrupt.o) [__root]
+  Marking fragment #91 .near_func.text (6 interrupt.o(dlstm8smn.a))
+Marking symbol __iar_section$$root                     (4 interrupt.o) [__root]
+  Marking fragment #92 .intvec (7 interrupt.o(dlstm8smn.a))
+Marking symbol __iar_section$$root                     (3 unhandled_exception.o) [__root]
+  Marking fragment #242 .near_func.text (6 unhandled_exception.o(dlstm8smn.a))
+Marking from fragment #242 .near_func.text (6 unhandled_exception.o(dlstm8smn.a))
+Marking from fragment #92 .intvec (7 interrupt.o(dlstm8smn.a))
+  Marking symbol __iar_program_start                Glb  (17 cstartup.o)
+  Marking symbol _interrupt_1                            (12 interrupt.o)
+  Marking symbol _interrupt_2                            (23 interrupt.o)
+  Marking symbol _interrupt_3                            (34 interrupt.o)
+  Marking symbol _interrupt_4                            (37 interrupt.o)
+  Marking symbol _interrupt_5                            (38 interrupt.o)
+  Marking symbol _interrupt_6                            (39 interrupt.o)
+  Marking symbol _interrupt_7                            (40 interrupt.o)
+  Marking symbol _interrupt_8                            (41 interrupt.o)
+  Marking symbol _interrupt_9                            (42 interrupt.o)
+  Marking symbol _interrupt_10                           (13 interrupt.o)
+  Marking symbol _interrupt_11                           (14 interrupt.o)
+  Marking symbol _interrupt_12                           (15 interrupt.o)
+  Marking symbol _interrupt_13                           (16 interrupt.o)
+  Marking symbol _interrupt_14                           (17 interrupt.o)
+  Marking symbol _interrupt_15                           (18 interrupt.o)
+  Marking symbol _interrupt_16                           (19 interrupt.o)
+  Marking symbol _interrupt_17                           (20 interrupt.o)
+  Marking symbol _interrupt_18                           (21 interrupt.o)
+  Marking symbol _interrupt_19                           (22 interrupt.o)
+  Marking symbol _interrupt_20                           (24 interrupt.o)
+  Marking symbol _interrupt_21                           (25 interrupt.o)
+  Marking symbol _interrupt_22                           (26 interrupt.o)
+  Marking symbol _interrupt_23                           (27 interrupt.o)
+  Marking symbol _interrupt_24                           (28 interrupt.o)
+  Marking symbol _interrupt_25                           (29 interrupt.o)
+  Marking symbol _interrupt_26                           (30 interrupt.o)
+  Marking symbol _interrupt_27                           (31 interrupt.o)
+  Marking symbol _interrupt_28                           (32 interrupt.o)
+  Marking symbol _interrupt_29                           (33 interrupt.o)
+  Marking symbol _interrupt_30                           (35 interrupt.o)
+  Marking symbol _interrupt_31                           (36 interrupt.o)
+Marking from fragment #91 .near_func.text (6 interrupt.o(dlstm8smn.a))
+  Marking symbol __iar_unhandled_exception          Glb  (6 unhandled_exception.o)
+Marking from fragment #307 .near_func.text (7 cstartup.o(dlstm8smn.a))
+  Marking symbol main                               Glb  (79 main.o)
+    Marking fragment #10 .near_func.text (15 main.o)
+  Marking symbol exit                               Glb  (7 exit.o)
+    Marking fragment #99 .near_func.text (6 exit.o(dlstm8smn.a))
+Marking from fragment #99 .near_func.text (6 exit.o(dlstm8smn.a))
+  Marking symbol _exit                              Glb  (14 cexit.o)
+    Marking fragment #433 .near_func.text (6 cexit.o(dlstm8smn.a))
+Marking from fragment #433 .near_func.text (6 cexit.o(dlstm8smn.a))
+  Marking symbol .near_func.text_4                       (7 cexit.o)
+    Marking fragment #436 .near_func.text (6 cexit.o(dlstm8smn.a))
+Marking from fragment #436 .near_func.text (6 cexit.o(dlstm8smn.a))
+  Marking symbol __exit                             Glb  (19 __dbg_xxexit.o)
+    Marking fragment #251 .near_func.text (8 __dbg_xxexit.o(dbgstm8smd.a))
+Marking from fragment #251 .near_func.text (8 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking symbol ?push_w4                           Glb  (248 vreg_util.o)
+    Marking fragment #314 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w4                                Glb  (32 vregs.o)
+    Marking fragment #431 .vregs (6 vregs.o(dlstm8smn.a))
+  Marking symbol ?w4                                Glb  (32 vregs.o)
+  Marking symbol __DebugBreak                       Glb  (15 __dbg_break.o)
+    Marking fragment #277 .near_func.text (8 __dbg_break.o(dbgstm8smd.a))
+Marking from fragment #277 .near_func.text (8 __dbg_break.o(dbgstm8smd.a))
+Marking from fragment #431 .vregs (6 vregs.o(dlstm8smn.a))
+Marking from fragment #314 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?w4                                Glb  (32 vregs.o)
+  Marking symbol .near_func.text_9                       (8 vreg_util.o)
+    Marking fragment #318 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking symbol .near_func.text_9                       (8 vreg_util.o)
+Marking from fragment #318 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+Marking from fragment #10 .near_func.text (15 main.o)
+  Marking symbol _Z25MainLogicManagmentProcessv     Glb  (74 main.o)
+    Marking fragment #11 .near_func.text (16 main.o)
+Marking from fragment #11 .near_func.text (16 main.o)
+Marking from fragment #305 .near_func.text (7 cstartup.o(dlstm8smn.a)) init:always
+  Marking symbol __intvec                           Glb  (11 interrupt.o)
+    Marking fragment #92 .intvec (7 interrupt.o(dlstm8smn.a)) init:always
+  Marking symbol CSTACK$$Limit                  Ext Glb  (18 cstartup.o)
+  Marking symbol __low_level_init                   Glb  (6 low_level_init.o)
+    Marking fragment #95 .near_func.text (6 low_level_init.o(dlstm8smn.a)) init:always
+  Marking symbol __iar_data_init2                   Glb  (7 init.o)
+    Marking fragment #86 .near_func.text (6 init.o(dlstm8smn.a)) init:always
+Marking from fragment #86 .near_func.text (6 init.o(dlstm8smn.a)) init:always
+  Marking symbol Region$$Table$$Base            Ext Glb  (8 init.o)
+  Marking symbol Region$$Table$$Limit           Ext Glb  (9 init.o)
+Marking from fragment #95 .near_func.text (6 low_level_init.o(dlstm8smn.a)) init:always
+Marking from fragment #92 .intvec (7 interrupt.o(dlstm8smn.a)) init:always
+  Marking symbol __iar_program_start                Glb  (17 cstartup.o)
+  Marking symbol _interrupt_1                            (12 interrupt.o)
+    Marking fragment #91 .near_func.text (6 interrupt.o(dlstm8smn.a)) init:always
+  Marking symbol _interrupt_2                            (23 interrupt.o)
+  Marking symbol _interrupt_3                            (34 interrupt.o)
+  Marking symbol _interrupt_4                            (37 interrupt.o)
+  Marking symbol _interrupt_5                            (38 interrupt.o)
+  Marking symbol _interrupt_6                            (39 interrupt.o)
+  Marking symbol _interrupt_7                            (40 interrupt.o)
+  Marking symbol _interrupt_8                            (41 interrupt.o)
+  Marking symbol _interrupt_9                            (42 interrupt.o)
+  Marking symbol _interrupt_10                           (13 interrupt.o)
+  Marking symbol _interrupt_11                           (14 interrupt.o)
+  Marking symbol _interrupt_12                           (15 interrupt.o)
+  Marking symbol _interrupt_13                           (16 interrupt.o)
+  Marking symbol _interrupt_14                           (17 interrupt.o)
+  Marking symbol _interrupt_15                           (18 interrupt.o)
+  Marking symbol _interrupt_16                           (19 interrupt.o)
+  Marking symbol _interrupt_17                           (20 interrupt.o)
+  Marking symbol _interrupt_18                           (21 interrupt.o)
+  Marking symbol _interrupt_19                           (22 interrupt.o)
+  Marking symbol _interrupt_20                           (24 interrupt.o)
+  Marking symbol _interrupt_21                           (25 interrupt.o)
+  Marking symbol _interrupt_22                           (26 interrupt.o)
+  Marking symbol _interrupt_23                           (27 interrupt.o)
+  Marking symbol _interrupt_24                           (28 interrupt.o)
+  Marking symbol _interrupt_25                           (29 interrupt.o)
+  Marking symbol _interrupt_26                           (30 interrupt.o)
+  Marking symbol _interrupt_27                           (31 interrupt.o)
+  Marking symbol _interrupt_28                           (32 interrupt.o)
+  Marking symbol _interrupt_29                           (33 interrupt.o)
+  Marking symbol _interrupt_30                           (35 interrupt.o)
+  Marking symbol _interrupt_31                           (36 interrupt.o)
+Marking from fragment #91 .near_func.text (6 interrupt.o(dlstm8smn.a)) init:always
+  Marking symbol __iar_unhandled_exception          Glb  (6 unhandled_exception.o)
+    Marking fragment #242 .near_func.text (6 unhandled_exception.o(dlstm8smn.a)) init:always
+Marking from fragment #242 .near_func.text (6 unhandled_exception.o(dlstm8smn.a)) init:always
+*** Marking optional init routines ***
+Marking fragment #302 .near_func.text (7 init_small.o(dlstm8smn.a)) {__iar_zero_init2} init:{__iar_zero_init2}
+Marking fragment #301 .near_func.text (6 init_small.o(dlstm8smn.a)) {__iar_copy_init2} init:{__iar_copy_init2}
+Marking from fragment #301 .near_func.text (6 init_small.o(dlstm8smn.a)) {__iar_copy_init2} init:{__iar_copy_init2}
+  Marking symbol                                         (7 init_small.o)
+  Marking symbol ?w0                                Glb  (28 vregs.o)
+    Marking fragment #431 .vregs (6 vregs.o(dlstm8smn.a)) {__iar_copy_init2} init:{__iar_copy_init2}
+  Marking symbol ?w1                                Glb  (29 vregs.o)
+  Marking symbol ?w0                                Glb  (28 vregs.o)
+  Marking symbol ?w1                                Glb  (29 vregs.o)
+  Marking symbol __iar_copy_init2                   Glb  (11 init_small.o)
+Marking from fragment #431 .vregs (6 vregs.o(dlstm8smn.a)) {__iar_copy_init2} init:{__iar_copy_init2}
+Marking from fragment #302 .near_func.text (7 init_small.o(dlstm8smn.a)) {__iar_zero_init2} init:{__iar_zero_init2}
+  Marking symbol                                         (8 init_small.o)
+  Marking symbol ?w0                                Glb  (28 vregs.o)
+    Marking fragment #431 .vregs (6 vregs.o(dlstm8smn.a)) {__iar_zero_init2} init:{__iar_zero_init2}
+  Marking symbol ?w0                                Glb  (28 vregs.o)
+  Marking symbol __iar_zero_init2                   Glb  (12 init_small.o)
+Marking from fragment #431 .vregs (6 vregs.o(dlstm8smn.a)) {__iar_zero_init2} init:{__iar_zero_init2}
+*** Marking debug sections ***
+----- pass 1
+References #10 .near_func.text (15 main.o)
+  Marking fragment #41 .debug_frame (53 main.o)
+References #10 .near_func.text (15 main.o)
+  Marking fragment #42 .iar.debug_line (55 main.o)
+References #10 .near_func.text (15 main.o)
+  Marking fragment #43 .debug_line (56 main.o)
+References #10 .near_func.text (15 main.o)
+  Marking fragment #44 .debug_info (57 main.o)
+References #11 .near_func.text (16 main.o)
+  Marking fragment #45 .debug_frame (58 main.o)
+References #11 .near_func.text (16 main.o)
+  Marking fragment #46 .iar.debug_line (60 main.o)
+References #11 .near_func.text (16 main.o)
+  Marking fragment #47 .debug_line (61 main.o)
+References #11 .near_func.text (16 main.o)
+  Marking fragment #48 .debug_info (62 main.o)
+References #44 .debug_info (57 main.o)
+  Marking fragment #66 .debug_pubnames (95 main.o)
+References #48 .debug_info (62 main.o)
+  Marking fragment #67 .debug_pubnames (98 main.o)
+References #86 .near_func.text (6 init.o(dlstm8smn.a))
+  Marking fragment #89 .debug_frame (9 init.o(dlstm8smn.a))
+References #91 .near_func.text (6 interrupt.o(dlstm8smn.a))
+  Marking fragment #93 .debug_frame (8 interrupt.o(dlstm8smn.a))
+References #95 .near_func.text (6 low_level_init.o(dlstm8smn.a))
+  Marking fragment #97 .debug_frame (8 low_level_init.o(dlstm8smn.a))
+References #99 .near_func.text (6 exit.o(dlstm8smn.a))
+  Marking fragment #101 .debug_frame (8 exit.o(dlstm8smn.a))
+References #314 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking fragment #219 .iar.debug_frame (236 vreg_util.o(dlstm8smn.a))
+References #318 .near_func.text (6 vreg_util.o(dlstm8smn.a))
+  Marking fragment #223 .iar.debug_frame (244 vreg_util.o(dlstm8smn.a))
+References #433 .near_func.text (6 cexit.o(dlstm8smn.a))
+  Marking fragment #237 .debug_frame (7 cexit.o(dlstm8smn.a))
+References #436 .near_func.text (6 cexit.o(dlstm8smn.a))
+  Marking fragment #240 .debug_frame (13 cexit.o(dlstm8smn.a))
+References #242 .near_func.text (6 unhandled_exception.o(dlstm8smn.a))
+  Marking fragment #243 .debug_frame (7 unhandled_exception.o(dlstm8smn.a))
+References #251 .near_func.text (8 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking fragment #253 .debug_frame (10 __dbg_xxexit.o(dbgstm8smd.a))
+References #251 .near_func.text (8 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking fragment #254 .iar.debug_line (12 __dbg_xxexit.o(dbgstm8smd.a))
+References #251 .near_func.text (8 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking fragment #255 .debug_line (13 __dbg_xxexit.o(dbgstm8smd.a))
+References #251 .near_func.text (8 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking fragment #256 .debug_info (14 __dbg_xxexit.o(dbgstm8smd.a))
+References #256 .debug_info (14 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking fragment #259 .debug_pubnames (18 __dbg_xxexit.o(dbgstm8smd.a))
+References #277 .near_func.text (8 __dbg_break.o(dbgstm8smd.a))
+  Marking fragment #279 .debug_frame (10 __dbg_break.o(dbgstm8smd.a))
+References #277 .near_func.text (8 __dbg_break.o(dbgstm8smd.a))
+  Marking fragment #280 .iar.debug_line (12 __dbg_break.o(dbgstm8smd.a))
+References #277 .near_func.text (8 __dbg_break.o(dbgstm8smd.a))
+  Marking fragment #281 .debug_line (13 __dbg_break.o(dbgstm8smd.a))
+References #277 .near_func.text (8 __dbg_break.o(dbgstm8smd.a))
+  Marking fragment #282 .debug_info (14 __dbg_break.o(dbgstm8smd.a))
+References #282 .debug_info (14 __dbg_break.o(dbgstm8smd.a))
+  Marking fragment #285 .debug_pubnames (18 __dbg_break.o(dbgstm8smd.a))
+References #301 .near_func.text (6 init_small.o(dlstm8smn.a))
+  Marking fragment #303 .debug_frame (8 init_small.o(dlstm8smn.a)) {__iar_copy_init2}
+References #302 .near_func.text (7 init_small.o(dlstm8smn.a))
+  Marking fragment #304 .debug_frame (10 init_small.o(dlstm8smn.a)) {__iar_zero_init2}
+----- pass 2
+----- marking from debug sections
+Marking from fragment #304 .debug_frame (10 init_small.o(dlstm8smn.a)) {__iar_zero_init2}
+  Marking symbol .debug_frame10                          (5 init_small.o)
+  Marking symbol __iar_zero_init2                   Glb  (12 init_small.o)
+Marking from fragment #303 .debug_frame (8 init_small.o(dlstm8smn.a)) {__iar_copy_init2}
+  Marking symbol .debug_frame8                           (3 init_small.o)
+  Marking symbol __iar_copy_init2                   Glb  (11 init_small.o)
+Marking from fragment #285 .debug_pubnames (18 __dbg_break.o(dbgstm8smd.a))
+  Marking symbol .debug_info14                           (12 __dbg_break.o)
+Marking from fragment #282 .debug_info (14 __dbg_break.o(dbgstm8smd.a))
+  Marking symbol .debug_abbrev16                         (6 __dbg_break.o)
+    Marking fragment #284 .debug_abbrev (16 __dbg_break.o(dbgstm8smd.a))
+  Marking symbol .near_func.text8                        (7 __dbg_break.o)
+  Marking symbol .near_func.text8                        (7 __dbg_break.o)
+  Marking symbol .debug_line13                           (10 __dbg_break.o)
+  Marking symbol .iar.debug_line12                       (11 __dbg_break.o)
+  Marking symbol .debug_info7                            (9 __dbg_break.o)
+    Marking fragment #276 .debug_info (7 __dbg_break.o(dbgstm8smd.a))
+  Marking symbol .debug_loc15                            (8 __dbg_break.o)
+    Marking fragment #283 .debug_loc (15 __dbg_break.o(dbgstm8smd.a))
+  Marking symbol .near_func.text8                        (7 __dbg_break.o)
+  Marking symbol .near_func.text8                        (7 __dbg_break.o)
+  Marking symbol .debug_info7                            (9 __dbg_break.o)
+  Marking symbol .debug_info7                            (9 __dbg_break.o)
+Marking from fragment #283 .debug_loc (15 __dbg_break.o(dbgstm8smd.a))
+Marking from fragment #276 .debug_info (7 __dbg_break.o(dbgstm8smd.a))
+  Marking symbol .debug_abbrev16                         (6 __dbg_break.o)
+  Marking symbol .debug_line6                            (13 __dbg_break.o)
+    Marking fragment #275 .debug_line (6 __dbg_break.o(dbgstm8smd.a))
+  Marking symbol .debug_macinfo20                        (14 __dbg_break.o)
+    Marking fragment #286 .debug_macinfo (20 __dbg_break.o(dbgstm8smd.a))
+Marking from fragment #286 .debug_macinfo (20 __dbg_break.o(dbgstm8smd.a))
+Marking from fragment #275 .debug_line (6 __dbg_break.o(dbgstm8smd.a))
+Marking from fragment #284 .debug_abbrev (16 __dbg_break.o(dbgstm8smd.a))
+Marking from fragment #281 .debug_line (13 __dbg_break.o(dbgstm8smd.a))
+  Marking symbol __DebugBreak                       Glb  (15 __dbg_break.o)
+Marking from fragment #280 .iar.debug_line (12 __dbg_break.o(dbgstm8smd.a))
+  Marking symbol __DebugBreak                       Glb  (15 __dbg_break.o)
+  Marking symbol .debug_info14                           (12 __dbg_break.o)
+Marking from fragment #279 .debug_frame (10 __dbg_break.o(dbgstm8smd.a))
+  Marking symbol .debug_frame10                          (3 __dbg_break.o)
+  Marking symbol __DebugBreak                       Glb  (15 __dbg_break.o)
+Marking from fragment #259 .debug_pubnames (18 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking symbol .debug_info14                           (13 __dbg_xxexit.o)
+Marking from fragment #256 .debug_info (14 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking symbol .debug_abbrev16                         (7 __dbg_xxexit.o)
+    Marking fragment #258 .debug_abbrev (16 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking symbol .near_func.text8                        (8 __dbg_xxexit.o)
+  Marking symbol .near_func.text8                        (8 __dbg_xxexit.o)
+  Marking symbol .debug_line13                           (11 __dbg_xxexit.o)
+  Marking symbol .iar.debug_line12                       (12 __dbg_xxexit.o)
+  Marking symbol .debug_info7                            (10 __dbg_xxexit.o)
+    Marking fragment #250 .debug_info (7 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking symbol .debug_loc15                            (9 __dbg_xxexit.o)
+    Marking fragment #257 .debug_loc (15 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking symbol .near_func.text8                        (8 __dbg_xxexit.o)
+  Marking symbol .near_func.text8                        (8 __dbg_xxexit.o)
+  Marking symbol .debug_info7                            (10 __dbg_xxexit.o)
+  Marking symbol .debug_loc15                            (9 __dbg_xxexit.o)
+  Marking symbol .near_func.text8                        (8 __dbg_xxexit.o)
+  Marking symbol .near_func.text8                        (8 __dbg_xxexit.o)
+  Marking symbol .debug_info7                            (10 __dbg_xxexit.o)
+  Marking symbol .debug_loc15                            (9 __dbg_xxexit.o)
+Marking from fragment #257 .debug_loc (15 __dbg_xxexit.o(dbgstm8smd.a))
+Marking from fragment #250 .debug_info (7 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking symbol .debug_abbrev16                         (7 __dbg_xxexit.o)
+  Marking symbol .debug_line6                            (14 __dbg_xxexit.o)
+    Marking fragment #249 .debug_line (6 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking symbol .debug_macinfo20                        (15 __dbg_xxexit.o)
+    Marking fragment #260 .debug_macinfo (20 __dbg_xxexit.o(dbgstm8smd.a))
+Marking from fragment #260 .debug_macinfo (20 __dbg_xxexit.o(dbgstm8smd.a))
+Marking from fragment #249 .debug_line (6 __dbg_xxexit.o(dbgstm8smd.a))
+Marking from fragment #258 .debug_abbrev (16 __dbg_xxexit.o(dbgstm8smd.a))
+Marking from fragment #255 .debug_line (13 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking symbol __exit                             Glb  (19 __dbg_xxexit.o)
+Marking from fragment #254 .iar.debug_line (12 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking symbol __exit                             Glb  (19 __dbg_xxexit.o)
+  Marking symbol .debug_info14                           (13 __dbg_xxexit.o)
+  Marking symbol __DebugBreak                       Glb  (15 __dbg_break.o)
+Marking from fragment #253 .debug_frame (10 __dbg_xxexit.o(dbgstm8smd.a))
+  Marking symbol .debug_frame10                          (4 __dbg_xxexit.o)
+  Marking symbol __exit                             Glb  (19 __dbg_xxexit.o)
+Marking from fragment #243 .debug_frame (7 unhandled_exception.o(dlstm8smn.a))
+  Marking symbol .debug_frame7                           (4 unhandled_exception.o)
+  Marking symbol __iar_unhandled_exception          Glb  (6 unhandled_exception.o)
+Marking from fragment #240 .debug_frame (13 cexit.o(dlstm8smn.a))
+  Marking symbol .debug_frame13                          (8 cexit.o)
+  Marking symbol .near_func.text_4                       (7 cexit.o)
+Marking from fragment #237 .debug_frame (7 cexit.o(dlstm8smn.a))
+  Marking symbol .debug_frame7                           (3 cexit.o)
+  Marking symbol _exit                              Glb  (14 cexit.o)
+Marking from fragment #223 .iar.debug_frame (244 vreg_util.o(dlstm8smn.a))
+  Marking symbol .near_func.text_9                       (8 vreg_util.o)
+  Marking symbol .iar.debug_frame7                       (3 vreg_util.o)
+    Marking fragment #104 .iar.debug_frame (7 vreg_util.o(dlstm8smn.a))
+Marking from fragment #104 .iar.debug_frame (7 vreg_util.o(dlstm8smn.a))
+  Marking symbol .iar.debug_frame8                       (4 vreg_util.o)
+    Marking fragment #105 .iar.debug_frame (8 vreg_util.o(dlstm8smn.a))
+  Marking symbol .iar.debug_frame12                      (6 vreg_util.o)
+    Marking fragment #107 .iar.debug_frame (12 vreg_util.o(dlstm8smn.a))
+Marking from fragment #107 .iar.debug_frame (12 vreg_util.o(dlstm8smn.a))
+  Marking symbol .iar.debug_frame9                       (5 vreg_util.o)
+    Marking fragment #106 .iar.debug_frame (9 vreg_util.o(dlstm8smn.a))
+Marking from fragment #106 .iar.debug_frame (9 vreg_util.o(dlstm8smn.a))
+Marking from fragment #105 .iar.debug_frame (8 vreg_util.o(dlstm8smn.a))
+  Marking symbol .iar.debug_frame9                       (5 vreg_util.o)
+Marking from fragment #219 .iar.debug_frame (236 vreg_util.o(dlstm8smn.a))
+  Marking symbol ?push_w4                           Glb  (248 vreg_util.o)
+  Marking symbol .iar.debug_frame7                       (3 vreg_util.o)
+Marking from fragment #101 .debug_frame (8 exit.o(dlstm8smn.a))
+  Marking symbol .debug_frame8                           (3 exit.o)
+  Marking symbol exit                               Glb  (7 exit.o)
+Marking from fragment #97 .debug_frame (8 low_level_init.o(dlstm8smn.a))
+  Marking symbol .debug_frame8                           (3 low_level_init.o)
+  Marking symbol __low_level_init                   Glb  (6 low_level_init.o)
+Marking from fragment #93 .debug_frame (8 interrupt.o(dlstm8smn.a))
+  Marking symbol .debug_frame8                           (6 interrupt.o)
+  Marking symbol .near_func.text6                        (5 interrupt.o)
+Marking from fragment #89 .debug_frame (9 init.o(dlstm8smn.a))
+  Marking symbol .debug_frame9                           (3 init.o)
+  Marking symbol __iar_data_init2                   Glb  (7 init.o)
+Marking from fragment #67 .debug_pubnames (98 main.o)
+  Marking symbol .debug_info62                           (68 main.o)
+Marking from fragment #66 .debug_pubnames (95 main.o)
+  Marking symbol .debug_info57                           (63 main.o)
+Marking from fragment #48 .debug_info (62 main.o)
+  Marking symbol .debug_abbrev72                         (24 main.o)
+    Marking fragment #58 .debug_abbrev (72 main.o)
+  Marking symbol .near_func.text16                       (64 main.o)
+  Marking symbol .near_func.text16                       (64 main.o)
+  Marking symbol .debug_line61                           (66 main.o)
+  Marking symbol .iar.debug_line60                       (67 main.o)
+  Marking symbol .debug_info7                            (29 main.o)
+    Marking fragment #2 .debug_info (7 main.o)
+  Marking symbol .debug_loc71                            (65 main.o)
+    Marking fragment #57 .debug_loc (71 main.o)
+  Marking symbol .near_func.text16                       (64 main.o)
+  Marking symbol .near_func.text16                       (64 main.o)
+Marking from fragment #57 .debug_loc (71 main.o)
+Marking from fragment #2 .debug_info (7 main.o)
+  Marking symbol .debug_abbrev72                         (24 main.o)
+  Marking symbol .debug_line6                            (69 main.o)
+    Marking fragment #1 .debug_line (6 main.o)
+  Marking symbol .debug_macinfo100                       (70 main.o)
+    Marking fragment #68 .debug_macinfo (100 main.o)
+Marking from fragment #68 .debug_macinfo (100 main.o)
+Marking from fragment #1 .debug_line (6 main.o)
+Marking from fragment #58 .debug_abbrev (72 main.o)
+Marking from fragment #47 .debug_line (61 main.o)
+  Marking symbol _Z25MainLogicManagmentProcessv     Glb  (74 main.o)
+Marking from fragment #46 .iar.debug_line (60 main.o)
+  Marking symbol _Z25MainLogicManagmentProcessv     Glb  (74 main.o)
+  Marking symbol .debug_info62                           (68 main.o)
+Marking from fragment #45 .debug_frame (58 main.o)
+  Marking symbol .debug_frame58                          (21 main.o)
+  Marking symbol _Z25MainLogicManagmentProcessv     Glb  (74 main.o)
+Marking from fragment #44 .debug_info (57 main.o)
+  Marking symbol .debug_abbrev72                         (24 main.o)
+  Marking symbol ??main_0                                (4 main.o)
+  Marking symbol ??main_0                                (4 main.o)
+  Marking symbol .debug_line56                           (61 main.o)
+  Marking symbol .iar.debug_line55                       (62 main.o)
+  Marking symbol .debug_info7                            (29 main.o)
+  Marking symbol .debug_loc70                            (60 main.o)
+    Marking fragment #56 .debug_loc (70 main.o)
+  Marking symbol ??main_0                                (4 main.o)
+  Marking symbol ??main_0                                (4 main.o)
+Marking from fragment #56 .debug_loc (70 main.o)
+Marking from fragment #43 .debug_line (56 main.o)
+  Marking symbol main                               Glb  (79 main.o)
+Marking from fragment #42 .iar.debug_line (55 main.o)
+  Marking symbol main                               Glb  (79 main.o)
+  Marking symbol .debug_info57                           (63 main.o)
+  Marking symbol .debug_info62                           (68 main.o)
+Marking from fragment #41 .debug_frame (53 main.o)
+  Marking symbol .debug_frame53                          (19 main.o)
+  Marking symbol main                               Glb  (79 main.o)
+
+Unused fragments:
+  Section name     Index  Offset  Size  Object
+  ------------     -----  ------  ----  ------
+  .near_func.text      8     0x0   0x1  main.o
+  .near_func.text      9     0x0   0x1  main.o
+  .near_func.text     10     0x0   0x1  main.o
+  .near_func.text     11     0x0   0x1  main.o
+  .near_func.text     12     0x0   0x1  main.o
+  .near_func.text     13     0x0   0x2  main.o
+  .near_func.text     14     0x0   0x1  main.o
+  VREGS               17     0x0   0x0  main.o
+  CSTACK               6     0x0   0x0  cstartup.o
+  .near_func.text      7     0xd   0xa  cstartup.o
+  .near_func.text      6     0x0  0x1e  cppinit.o
+  .iar.dynexit         7     0x0   0x6  cppinit.o
+  .near.data           8     0x0   0x2  cppinit.o
+  .near_func.text      9     0x0  0x36  cppinit.o
+  .near_func.text     10     0x0  0x4b  cppinit.o
+                            0x4b   0x4
+  .near.bss           11     0x0   0x2  cppinit.o
+  VREGS               12     0x0   0x0  cppinit.o
+  .iar.dynexit        13     0x0   0x0  cppinit.o
+  VREGS                7     0x0   0x0  init.o
+  Region$$Table        8     0x0   0x0  init.o
+  VREGS                7     0x0   0x0  low_level_init.o
+  VREGS                7     0x0   0x0  exit.o
+  .near_func.text      6     0x0   0x5  vreg_util.o
+                             0x5   0x5
+                             0xa   0x5
+                             0xf   0x5
+                            0x19   0x5
+                            0x1e   0x5
+                            0x23   0x5
+                            0x3b   0x7
+                            0x42   0x7
+                            0x49   0x7
+                            0x50   0x7
+                            0x57   0x7
+                            0x5e   0x7
+                            0x65   0x7
+                            0x6c   0x7
+                            0x73   0x8
+                            0x7b  0x18
+                            0x93  0x18
+                            0xab  0x18
+                            0xc3  0x18
+                            0xdb   0xf
+                            0xea   0xf
+                            0xf9   0xf
+                           0x108   0xf
+                           0x117   0xb
+                           0x122   0x5
+                           0x127   0x5
+                           0x12c   0x5
+                           0x131   0x5
+                           0x136  0x1d
+                           0x153   0xb
+                           0x15e   0xb
+                           0x169   0xb
+                           0x174   0xb
+                           0x17f   0x8
+                           0x187   0x3
+                           0x18a   0x4
+                           0x18e   0x7
+                           0x195   0x4
+                           0x199   0x7
+                           0x1a0   0x7
+                           0x1a7   0x7
+                           0x1ae   0x7
+                           0x1b5   0x7
+                           0x1bc   0x7
+                           0x1c3   0x7
+                           0x1ca   0x7
+                           0x1d1   0x7
+                           0x1d8   0x7
+                           0x1df   0x7
+                           0x1e6   0x7
+                           0x1ed   0x7
+                           0x1f4   0x7
+                           0x1fb   0x7
+                           0x202   0x7
+                           0x209   0x7
+                           0x210   0x7
+                           0x217   0x7
+                           0x21e   0x7
+                           0x225   0x7
+                           0x22c   0x7
+                           0x233   0x7
+                           0x23a   0x7
+                           0x241   0x7
+                           0x248   0x7
+                           0x24f   0x7
+                           0x256   0x7
+                           0x25d   0x7
+                           0x264   0x7
+                           0x26b   0x7
+                           0x272   0x7
+                           0x279   0x7
+                           0x280   0x7
+                           0x287   0x7
+                           0x28e   0x7
+                           0x295   0x7
+                           0x29c   0x7
+                           0x2a3   0x7
+                           0x2aa   0x7
+                           0x2b1   0x7
+                           0x2b8   0x7
+                           0x2bf   0x7
+                           0x2c6   0x7
+                           0x2cd   0x3
+                           0x2d0   0x3
+                           0x2d3   0x7
+                           0x2da   0x3
+                           0x2dd   0x3
+                           0x2e0   0x7
+                           0x2e7   0x3
+                           0x2ea   0x3
+                           0x2ed   0x7
+                           0x2f4   0x3
+                           0x2f7   0x3
+                           0x2fa   0x7
+                           0x301   0x3
+                           0x304   0x3
+                           0x307   0x7
+                           0x30e   0x3
+                           0x311   0x3
+                           0x314   0x7
+                           0x31b   0x3
+                           0x31e   0x3
+                           0x321   0x7
+                           0x328   0x3
+                           0x32b   0x3
+                           0x32e   0x7
+                           0x335   0x3
+                           0x338   0x3
+                           0x33b   0x7
+                           0x342   0x3
+                           0x345   0x3
+                           0x348   0x7
+                           0x34f   0x3
+                           0x352   0x3
+                           0x355   0x7
+                           0x35c   0x3
+                           0x35f   0x3
+                           0x362   0x7
+  .vregs               6     0xc   0x4  vregs.o
+  .near_func.text      6     0x1   0x3  cexit.o
+                             0x4   0x3
+  .near_func.text      6     0x0   0xb  xcloseall.o
+  VREGS                7     0x0   0x0  xcloseall.o
+  VREGS                9     0x0   0x0  __dbg_xxexit.o
+  .near_func.text      8     0x0   0x9  __dbg_xxwrite.o
+  VREGS                9     0x0   0x0  __dbg_xxwrite.o
+  VREGS                9     0x0   0x0  __dbg_break.o
+  .near_func.text      8     0x0  0x16  __dbg_xxdwrite.o
+  VREGS                9     0x0   0x0  __dbg_xxdwrite.o
