@@ -6,7 +6,7 @@
      __root const Data_Params  PARAMS = 
       {
         .DATA[BOOT_FLG] = 0,
-        .DATA[DEV_ADDR] = 1,
+        .DATA[DEV_ADDR] = 101,
         .DATA[TIME_OUT] = 500,
         .DATA[BOUD_RATE] = 9600,
         .DATA[RELE_STAT] = 0x00,

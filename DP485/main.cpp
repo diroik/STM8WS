@@ -20,7 +20,7 @@
 //** 
 //******************************************************************************
 void MainLogicManagmentProcess(void);
-float GetSimpleTempValue(DWord* ADCMEM);
+float GetSimpleValue(DWord* ADCMEM);
 sWord HexToByte(Byte *ptr);
 void ByteToHex(Byte *HEX, Byte BYTE);
 Byte CheckSum(Byte *BUF, Word Len);
@@ -55,16 +55,12 @@ void MainLogicManagmentProcess()
     ADC_Ready = false;
     for(Byte i=0;i < MAX_ADC_INPUTS; i++)
     {
-      float value = GetSimpleTempValue(&AKB[i].AKB_OUT);
-      if(value > 199.0)
-        value = 199.0;
-      else if(value < -99.0)
-        value = -99.0;  
+      float value = GetSimpleValue(&AKB[i].AKB_OUT);
       
-      float kvalue = (value == 199.0 || value == -99.0) ?  value :  value*(PARAMS.DATA[KOEF1+i]/1000.0);
+      float kvalue = (value == 4.99 || value == 0.01) ?  value :  value*(PARAMS.DATA[KOEF1+i]/1000.0);
 
-      DATA.TermoDatchiks[i]             = (sWord)( kvalue * 10 );
-      DATA.TermoSimpleDatchiks[i]       = (sWord)(  value * 10 );
+      DATA.TermoDatchiks[i]             = (sWord)( kvalue * 100 );
+      DATA.TermoSimpleDatchiks[i]       = (sWord)(  value * 100 );
     }
   }
   
@@ -230,25 +226,8 @@ void MainLogicManagmentProcess()
 //******************************************************************************
 //******************************************************************************
 //*****************************************************************************
-//==============================================================================
-// 
 //=======================================
-/*
-void SetReleValue(Byte Data)
-{  
-  for(Byte i=0; i < 4;i++){
-    if(Data & (1 << i))
-      PC_ODR |= (BIT4 << i);
-    else
-      PC_ODR &= ~(BIT4 << i);
-  }
-  
-  //PC_ODR = BIT4+BIT5+BIT6+BIT7;
-}
-
-*/
-//=======================================
-float GetSimpleTempValue(DWord* ADCMEM)
+float GetSimpleValue(DWord* ADCMEM)
 {
   float U = (4.99* (*ADCMEM))/(1023.0*1024.0);  
   if(U > 4.99)
@@ -256,11 +235,15 @@ float GetSimpleTempValue(DWord* ADCMEM)
   else if(U < 0.01)
     U = 0.01;
 
+  return U;
+  /*
   float R = U/((4.99 - U)/RESISTOR);   
   float d = (R-1000.0)/(GetKoeff(R)*10.0); //7.9;
   if(d > 300)
     return 199.0;
   return 25.0 + d;
+  
+  */
 }
 //=======================================
 float GetKoeff(float R)
