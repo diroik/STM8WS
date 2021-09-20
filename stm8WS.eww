@@ -7,6 +7,9 @@
         <path>$WS_DIR$\MKADD\MKADD.ewp</path>
     </project>
     <project>
+        <path>$WS_DIR$\MKADD_OUT\MKADD_OUT.ewp</path>
+    </project>
+    <project>
         <path>$WS_DIR$\SOM\SOM.ewp</path>
     </project>
     <project>

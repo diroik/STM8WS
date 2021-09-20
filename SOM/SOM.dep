@@ -5,10 +5,10 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\main.cpp</file>
+            <file>$PROJ_DIR$\Debug\Exe\SOM.hex</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$PROJ_DIR$\Debug\Exe\SOM.hex</file>
+            <file>$PROJ_DIR$\main.cpp</file>
             <file>$PROJ_DIR$\Debug\Exe\SOM.out</file>
         </outputs>
         <file>
@@ -24,12 +24,12 @@
             <name>$PROJ_DIR$\main.cpp</name>
             <outputs>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 1</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 2</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 1</file>
                 </tool>
             </outputs>
         </file>
@@ -38,7 +38,7 @@
             <outputs>
                 <tool>
                     <name>OBJCOPY</name>
-                    <file> 3</file>
+                    <file> 0</file>
                 </tool>
             </outputs>
         </file>
