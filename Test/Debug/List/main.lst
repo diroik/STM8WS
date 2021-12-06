@@ -1,29 +1,30 @@
 ###############################################################################
-#                                                                             #
-# IAR C/C++ Compiler V1.40.1.50106 for STM8             03/Aug/2016  19:08:53 #
-# Copyright 2010-2013 IAR Systems AB.                                         #
-#                                                                             #
-#    Source file  =  D:\$PROJECTS\Microcontrollers\$STM8\Test\main.cpp        #
-#    Command line =  D:\$PROJECTS\Microcontrollers\$STM8\Test\main.cpp -e     #
-#                    -On --no_cse --no_unroll --no_inline --no_code_motion    #
-#                    --no_tbaa --no_cross_call --debug --code_model small     #
-#                    --data_model medium -o D:\$PROJECTS\Microcontrollers\$ST #
-#                    M8\Test\Debug\Obj\ --dlib_config "C:\Program Files       #
-#                    (x86)\IAR Systems\Embedded Workbench                     #
-#                    6.5\stm8\LIB\dlstm8smn.h" -D STM8S003 -lC                #
-#                    D:\$PROJECTS\Microcontrollers\$STM8\Test\Debug\List\     #
-#                    -lA D:\$PROJECTS\Microcontrollers\$STM8\Test\Debug\List\ #
-#                     -I D:\$PROJECTS\Microcontrollers\$STM8\Test\incl\       #
-#                    --eec++ --vregs 16                                       #
-#    List file    =  D:\$PROJECTS\Microcontrollers\$STM8\Test\Debug\List\main #
-#                    .lst                                                     #
-#    Object file  =  D:\$PROJECTS\Microcontrollers\$STM8\Test\Debug\Obj\main. #
-#                    o                                                        #
-#                                                                             #
-#                                                                             #
+#
+# IAR C/C++ Compiler V3.10.1.201 for STM8                 15/Oct/2021  16:55:02
+# Copyright 2010-2017 IAR Systems AB.
+# Standalone license - IAR Embedded Workbench for STMicroelectronics STM8, 8K KickStart Edition 3.10
+#
+#    Source file  =  D:\$PROJECTS\Microcontrollers\GIT\STM8\Test\main.cpp
+#    Command line =  
+#        -f C:\Users\DROIK\AppData\Local\Temp\EWC42E.tmp
+#        (D:\$PROJECTS\Microcontrollers\GIT\STM8\Test\main.cpp -e -On --no_cse
+#        --no_unroll --no_inline --no_code_motion --no_tbaa --no_cross_call
+#        --debug --code_model small --data_model medium -o
+#        D:\$PROJECTS\Microcontrollers\GIT\STM8\Test\Debug\Obj --dlib_config
+#        "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.0\stm8\LIB\dlstm8smn.h" -D STM8S003 -lC
+#        D:\$PROJECTS\Microcontrollers\GIT\STM8\Test\Debug\List -lA
+#        D:\$PROJECTS\Microcontrollers\GIT\STM8\Test\Debug\List -I
+#        D:\$PROJECTS\Microcontrollers\GIT\STM8\Test\incl\ --eec++ --vregs 16)
+#    Locale       =  Russian_RUS.1251
+#    List file    =  
+#        D:\$PROJECTS\Microcontrollers\GIT\STM8\Test\Debug\List\main.lst
+#    Object file  =  
+#        D:\$PROJECTS\Microcontrollers\GIT\STM8\Test\Debug\Obj\main.o
+#
 ###############################################################################
 
-D:\$PROJECTS\Microcontrollers\$STM8\Test\main.cpp
+D:\$PROJECTS\Microcontrollers\GIT\STM8\Test\main.cpp
       1          /**********************************************/
       2          /*              TM 2016                       */
       3          /*                                            */
@@ -35,42 +36,6 @@ D:\$PROJECTS\Microcontrollers\$STM8\Test\main.cpp
       9          #include <flash_map.h>
      10          #include <sram_map.h>
      11          #include "Init.cpp"
-
-   \                                 In section .near_func.text, align 1
-   \   void Init_Ports()
-   \                     _Z10Init_Portsv:
-   \   000000 81           RET
-
-   \                                 In section .near_func.text, align 1
-   \   void Init_OSC()
-   \                     _Z8Init_OSCv:
-   \   000000 81           RET
-
-   \                                 In section .near_func.text, align 1
-   \   void Init_ADC()
-   \                     _Z8Init_ADCv:
-   \   000000 81           RET
-
-   \                                 In section .near_func.text, align 1
-   \   void Start_ADC()
-   \                     _Z9Start_ADCv:
-   \   000000 81           RET
-
-   \                                 In section .near_func.text, align 1
-   \   void Stop_ADC()
-   \                     _Z8Stop_ADCv:
-   \   000000 81           RET
-
-   \                                 In section .near_func.text, align 1
-   \   void Soft_Reset()
-   \                     _Z10Soft_Resetv:
-   \                     ??Soft_Reset_0:
-   \   000000 20 FE        JRA       L:??Soft_Reset_0
-
-   \                                 In section .near_func.text, align 1
-   \   void Init_Flash_Const()
-   \                     _Z16Init_Flash_Constv:
-   \   000000 81           RET
      12          #include "interrupts.cpp"
      13          //******************************************************************************
      14          //**  Прототипы функций
@@ -80,8 +45,6 @@ D:\$PROJECTS\Microcontrollers\$STM8\Test\main.cpp
      18          //******************************************************************************
      19          //** Начало программы
      20          //******************************************************************************
-
-   \                                 In section .near_func.text, align 1
      21          void main(void)
      22          {
      23            //SYSTEM_INIT(); 
@@ -90,44 +53,17 @@ D:\$PROJECTS\Microcontrollers\$STM8\Test\main.cpp
      26            {
      27             // CLEAR_WDT;
      28              MainLogicManagmentProcess();  
-   \                     main:
-   \                     ??main_0:
-   \   000000 CD ....      CALL      L:_Z25MainLogicManagmentProcessv
-   \   000003 20 FB        JRA       L:??main_0
      29            } 
      30          }
      31          //******************************************************************************
      32          //**  
      33          //******************************************************************************
-
-   \                                 In section .near_func.text, align 1
      34          void MainLogicManagmentProcess()
      35          {
      36          }
-   \                     _Z25MainLogicManagmentProcessv:
-   \   000000 81           RET
      37          //******************************************************************************
      38          
      39          
 
-   Section sizes:
-
-   Bytes  Function/Label
-   -----  --------------
-       1  Init_ADC()
-       1  Init_Flash_Const()
-       1  Init_OSC()
-       1  Init_Ports()
-       1  MainLogicManagmentProcess()
-       2  Soft_Reset()
-       1  Start_ADC()
-       1  Stop_ADC()
-       5  main()
-
- 
- 14 bytes in section .near_func.text
- 
- 14 bytes of CODE memory
-
-Errors: none
+Errors: 1
 Warnings: none

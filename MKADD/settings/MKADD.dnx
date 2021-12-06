@@ -12,12 +12,13 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <DebugChecksum>
-        <Checksum>2499569451</Checksum>
+        <Checksum>3824049039</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
     </CallStack>
     <Disassembly>
+        <InstrCount>0</InstrCount>
         <MixedMode>1</MixedMode>
     </Disassembly>
     <Log_file>
@@ -37,6 +38,49 @@
         <Enabled>0</Enabled>
         <ShowSource>1</ShowSource>
     </Trace1>
+    <DataSample>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+    </DataSample>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <struct_types>
+        <Fmt0>struct Data_Values-InputValues	1	0</Fmt0>
+    </struct_types>
+    <array_types>
+        <Fmt0>Word[10]	4	0</Fmt0>
+        <Fmt1>int[4]	3	0</Fmt1>
+    </array_types>
+    <watch_formats>
+        <Fmt0>{W}1:DataLen	3	0</Fmt0>
+        <Fmt1>{W}1:InputValues	1	0</Fmt1>
+        <Fmt2>{W}1:RebootCounter	3	0</Fmt2>
+        <Fmt3>{W}1:Timer	3	0</Fmt3>
+    </watch_formats>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>1</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ "$PROJ_DIR$\TermIO.log"</LogFile>
+    </TermIOLog>
     <InterruptLog>
         <LogEnabled>0</LogEnabled>
         <GraphEnabled>0</GraphEnabled>
@@ -53,7 +97,8 @@
         <ShowTimeSum>1</ShowTimeSum>
     </DataLog>
     <Breakpoints2>
-        <Count>0</Count>
+        <Bp0>_ 1 "STD_CODE2" "{$PROJ_DIR$\main.cpp}.37.1" 0 0 1 "" 0 ""</Bp0>
+        <Count>1</Count>
     </Breakpoints2>
     <Interrupts>
         <Enabled>1</Enabled>
@@ -70,33 +115,6 @@
         <FreqHi>0</FreqHi>
         <MultiCoreRunAll>1</MultiCoreRunAll>
     </Simulator>
-    <struct_types>
-        <Fmt0>struct Data_Values-InputValues	1	0</Fmt0>
-    </struct_types>
-    <array_types>
-        <Fmt0>Word[10]	4	0</Fmt0>
-        <Fmt1>int[4]	3	0</Fmt1>
-    </array_types>
-    <watch_formats>
-        <Fmt0>{W}1:DataLen	3	0</Fmt0>
-        <Fmt1>{W}1:InputValues	1	0</Fmt1>
-        <Fmt2>{W}1:RebootCounter	3	0</Fmt2>
-        <Fmt3>{W}1:Timer	3	0</Fmt3>
-    </watch_formats>
-    <DataSample>
-        <LogEnabled>0</LogEnabled>
-        <GraphEnabled>0</GraphEnabled>
-        <ShowTimeLog>1</ShowTimeLog>
-    </DataSample>
-    <LogFile>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-        <Category>_ 0</Category>
-    </LogFile>
-    <TermIOLog>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ "$PROJ_DIR$\TermIO.log"</LogFile>
-    </TermIOLog>
     <Breakpoints>
         <Count>0</Count>
     </Breakpoints>

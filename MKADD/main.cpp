@@ -9,6 +9,7 @@
 #include <delay.h>
 #include <intrinsics.h>
 #include <type_define.h>
+
 #include <flash_map.h>
 #include <sram_map.h>
 #include "Init.cpp"
@@ -16,6 +17,7 @@
 #include "Class_Tamplate.cpp"
 #include "Usart.cpp"
 #include "interrupts.cpp"
+
 //******************************************************************************
 //** 
 //******************************************************************************
@@ -32,6 +34,8 @@ bool ParsingAnswer( Byte *BUF, Word Len);
 //******************************************************************************
 void main(void)
 {
+
+
     SYSTEM_INIT(); 
     DATA.ReleValues = PtrToConstants->DATA[RELE_STAT];
     SetReleValue(DATA.ReleValues);
@@ -73,7 +77,7 @@ void MainLogicManagmentProcess()
   if(Input_Ready)
   {
     Input_Ready = false;
-    for(Byte i=0;i<MAX_DISCRETE_INPUTS;i++)
+    for(Byte i=0;i<MAX_DISCRETE_INPUTS; i++)
     {
       bool inv = PtrToConstants->DATA[INPUT_INV] & (1 << i);
       bool state = inv ^ (bool)( *DISCRETE[i].REG & DISCRETE[i].BIT );

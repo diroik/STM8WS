@@ -163,7 +163,7 @@ return c;
 ////////////////////////////////////////////////////////////////////////////////
 int main( void )
 {
-  
+
   FLASH_DUKR = 0xAE;//Разблокировка
   FLASH_DUKR = 0x56;// EEPROM and Options byte
   //FLASH_CR2_bit.OPT=1; //Разрешение записи Options byte
@@ -201,14 +201,19 @@ int main( void )
  PA_DDR_bit.DDR3=1;
  PA_CR1_bit.C13=1;
  OUT=1;
- ///*  при дебаге закоментировать
+
+
+ ///  при дебаге закоментировать
  //CPU_CFG_GCR_bit.SWD=1;              //SWIM->IO 
  //Инициализация ст.тайм.
  IWDG_KR=0x55;
  IWDG_PR=4;IWDG_RLR=0xff;//(4,255) 255mS
   __watchdog_reset();
  IWDG_KR=0xCC;
- //*/  
+ //
+ 
+ 
+ 
  init_din();
  timdin=100;
  timsin=1;

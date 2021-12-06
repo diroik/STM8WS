@@ -73,7 +73,7 @@ void MainLogicManagmentProcess()
   if(Input_Ready)
   {
     Input_Ready = false;
-    for(Byte i=0; i<MAX_DISCRETE_INPUTS; i++)
+    for(Byte i=0;i<MAX_DISCRETE_INPUTS; i++)
     {
       bool inv = PtrToConstants->DATA[INPUT_INV] & (1 << i);
       bool state = inv ^ (bool)( *DISCRETE[i].REG & DISCRETE[i].BIT );
@@ -272,7 +272,7 @@ void MainLogicManagmentProcess()
 //=======================================
 void SetReleValue(Byte Data)
 {  
-  for(Byte i = 0; i < 4;i++)
+  for(Byte i=0; i < 4;i++)
   {
     if(Data & (1 << i))
       PC_ODR |= (BIT7 >> i);
